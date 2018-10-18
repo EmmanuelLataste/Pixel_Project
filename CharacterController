@@ -2,12 +2,11 @@
 using UnityEngine;
 
 public class Character_Controller : MonoBehaviour {
-    public LayerMask groundLayer;
+    public LayerMask groundLayer; // Bien penser à le mettre dans la scène, et à créer un layer groundLayer
     private float horizontal;
     private float vertical;
     public float speed;
     public float jump;
-    private float velocityX;
     public Vector3 groundDistance;
 
     private void Start()
